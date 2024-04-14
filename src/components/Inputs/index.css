@@ -1,0 +1,46 @@
+.form_div {
+  background-color: #131213;
+  width: 40%;
+  padding: 20px;
+  height: 599px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  color: #f3aa4e;
+  font-size: 35px;
+  font-family: roboto;
+  font-weight: 700;
+}
+.input_div {
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+.label_text {
+  color: white;
+  font-family: roboto;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.input_item {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  padding-left: 10px;
+}
+.addbtn {
+  background-color: #f3aa4e;
+  color: white;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  font-size: medium;
+  margin-top: 30px;
+}

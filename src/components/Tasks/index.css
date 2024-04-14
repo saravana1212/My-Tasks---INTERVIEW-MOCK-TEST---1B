@@ -1,0 +1,59 @@
+.un_oreder_list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.right_div {
+  background-color: black;
+  height: 600px;
+  width: 80%;
+  padding: 30px;
+  overflow: scroll;
+  scrollbar-width: 0px;
+}
+
+.right_div::-webkit-scrollbar {
+  display: none;
+}
+.taskList {
+  padding: 20px;
+}
+
+.taskItem {
+  background-color: #131213;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.Yellow_btn {
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+  background-color: #f3aa4e;
+  border: none;
+}
+
+.heading {
+  color: white;
+  font-family: roboto;
+  font-size: 30px;
+}
+.text-item{
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
